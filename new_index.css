@@ -1,0 +1,72 @@
+.header_text {
+    text-align: center;
+}
+
+.centents_picture {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centents_picture > div {
+
+}
+
+.contents {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contents_image {
+    width: 25%;
+    text-align: center;
+}
+
+.contents>div>img {
+    border-radius: 50%;
+}
+
+.contents_list {
+    margin-left: 100px;
+    width: 65%;
+}
+
+article summary {
+    font-family: 'Dongle', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+main li {
+    font-family: 'Dongle', sans-serif;
+    font-size: xx-large;
+}
+
+.study {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.study_image {
+    width: 25%;
+    text-align: center;
+}
+
+.study>div>img {
+    border-radius: 5%;
+}
+
+.study_list {
+    margin-left: 100px;
+    width: 65%;
+}
+
+.contents_footer {
+    text-align: center;
+}
