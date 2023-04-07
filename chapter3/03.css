@@ -10,11 +10,12 @@ header {
 }
 
 nav {
-    height: 50px;
+    height: 60px;
     background-color: #E8D8B8;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    font-size: 24px;
 }
 
 nav li {
@@ -59,8 +60,37 @@ article h1 {
     margin-right: 50px;
 }
 
-
 #a1 img {
     border-radius: 25%;
     width: 200px;
+}
+
+main h1 {
+    font-family: 'Dongle', sans-serif;
+    font-size: xx-large;
+}
+
+main ul {
+    font-family: 'Dongle', sans-serif;
+    font-size: xx-large;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A89E8F;
+    color: #F6F0E4;
+    
+}
+
+.temp {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.temp > span {
+    font-size: larger;
 }

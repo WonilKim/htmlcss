@@ -1,0 +1,23 @@
+.header_text {
+    text-align: center;
+}
+
+.contents {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contents>div {
+    width: 25%;
+    text-align: center;
+}
+
+.contents>div>img {
+    border-radius: 50%;
+}
+
+.contents>p {
+    width: 65%;
+}
